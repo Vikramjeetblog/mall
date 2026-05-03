@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 export default function Experience() {
   const navigate = useNavigate();
 
-  // 🔥 IMPORTANT: ensure this page is clean entry in history
+  
   useEffect(() => {
     window.history.replaceState(null, "", "/experience");
   }, []);

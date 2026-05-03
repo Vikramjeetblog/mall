@@ -56,10 +56,10 @@ export default function Entry() {
           transition={{ delay: 0.6 }}
           className="text-sm tracking-wider text-gray-400 mb-10"
         >
-          Downtown Dubai • 80M+ Visitors • Global Audience
+          Downtown Dubai  80M+ Visitors  Global Audience
         </motion.p>
 
-        {/* 🔥 TWO ENTRY POINTS (NON-LINEAR START) */}
+        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

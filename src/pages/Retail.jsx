@@ -88,7 +88,7 @@ export default function Retail() {
 
   return (
     <div className="relative h-screen w-full bg-black text-white overflow-hidden">
-      {/* BACK TO EXPERIENCE */}
+      {/* BACK  */}
       <button
         onClick={() => navigate("/experience")}
         className="absolute top-6 left-6 sm:top-10 sm:left-10 z-30 flex items-center gap-2 

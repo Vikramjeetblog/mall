@@ -100,7 +100,7 @@ export default function Units() {
       ? `$${(active.price * 12 * 2).toLocaleString()}`
       : `$${(active.size * active.price * multiplier).toLocaleString()}`;
 
-  // 🔥 Keyboard Navigation
+  //  Keyboard Navigation
   useEffect(() => {
     const handleKey = (e) => {
       if (["ArrowRight", "ArrowDown"].includes(e.key)) {
@@ -115,7 +115,7 @@ export default function Units() {
     return () => window.removeEventListener("keydown", handleKey);
   }, [units.length]);
 
-  // 🔥 Swipe Navigation (Mobile)
+  //  Swipe Navigation (Mobile)
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
   };
